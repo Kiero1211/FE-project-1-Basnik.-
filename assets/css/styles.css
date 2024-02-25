@@ -617,6 +617,7 @@ a {
     color: #7A7A7E;
     font-size: 1.6rem;
     font-weight: 400;
+    white-space: nowrap;
 }
 
 .footer .column .desc {
