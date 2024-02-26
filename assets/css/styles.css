@@ -17,6 +17,10 @@ body {
     font-family: 'Poppins';
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 /* Common */
 .content{
     width: 1110px;
@@ -115,10 +119,7 @@ a {
     background-color: #E6F0FF;
     display: flex;
     flex-direction: column;
-}
-
-.hero {
-    margin-top: 118px;
+    justify-content: center;
 }
 
 .hero .info {
