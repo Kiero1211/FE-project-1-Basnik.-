@@ -110,7 +110,7 @@ a {
 
 /* ============= Hero ============== */
 .hero-wrapper {
-    height: 100vh;
+    height: calc(100vh - 90px);
     position: relative;
     background-color: #E6F0FF;
     display: flex;
