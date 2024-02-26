@@ -656,6 +656,7 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 3px;
+    background-color: #F9F9F9;
 }
 
 .footer .social-link:hover {
