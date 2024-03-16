@@ -332,7 +332,8 @@ a {
 
 .featured-list {
   margin-top: 70px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
@@ -411,6 +412,10 @@ a {
   width: 50%;
 }
 
+.stats .img-block {
+  position: relative;
+}
+
 .stats .img-block .image {
   width: 100%;
   width: 400px;
@@ -467,7 +472,7 @@ a {
   padding: 45px 22px 40px;
 }
 
-.trend-content .row {
+.trend-content .trend-row {
   display: flex;
   justify-content: space-between;
 }
@@ -609,8 +614,9 @@ a {
 }
 
 .footer .row {
-  display: flex;
-  gap: 185px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 185px;
 }
 
 .footer .column .heading {
